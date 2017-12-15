@@ -1,0 +1,37 @@
+.p {
+    font-size: 20px;
+    color: red;
+}
+.h{
+   font-size: 300px;
+    color:red;
+}
+
+.box1 {
+    padding: 0.5em 1em;
+    margin: 10px auto;
+    color: #00BCD4;
+    background: #e4fcff;/*背景色*/
+    border-top: solid 6px #1dc1d6;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
+    width: 5%;
+    height:100%;
+
+}
+.box1 p {
+    margin: 0;
+    padding: 0;
+}
+
+
+.table5 {
+    border-collapse: collapse;
+    width: 250px;
+}
+.table5 th {
+    background-color: #cccccc;
+}
+.table5 td {
+    text-align: center;
+}
+
