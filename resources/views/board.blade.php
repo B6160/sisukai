@@ -43,7 +43,7 @@
             <th>
                 コメント
                 <div>
-                    <textarea name="text" rows="8" cols="40" wrap="hard">
+                    <textarea name="text" rows="8" cols="40" wrap="hard" required>
                     </textarea>
                 </div>
             </th>

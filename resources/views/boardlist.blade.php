@@ -1,31 +1,29 @@
 @extends('layouts.app')
 
 @section('content')
-<html>
+    <meta charset="utf-8" />
+    {{--<link href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">--}}
+    {{--<link rel="stylesheet" type="text/css" href="/css/bootstrap.css">--}}
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <html>
 
 
-<header>
-    <link href="/css/box.css"rel="stylesheet" type="text/css">
-    <title>掲示板一覧</title>
-</header>
+    <header>
+        <link href="/css/box.css"rel="stylesheet" type="text/css">
+        <title>掲示板一覧</title>
+    </header>
     <body>
-        <p>
-            <div class="box1"><input type="button" value="戻る" onclick="history.back()"></div>
-        </p>
 
-<!--<div align="center"><p>掲示板一覧</p></div>-->
+    <div  align="center">
 
-        <div  align="center">
+        <h1>掲示板一覧</h1>
 
-            <p>掲示板一覧</p>
+        <a href="/questionboard"><h1><button class="btn btn-info btn-lg000" >質問掲示板</button></h1></a>
 
-            <a href="/board"><input type="submit" value="kkkkkk"></a></br></br>
+        <a href="/board"><h1><button class="btn btn-info btn-lg">要望掲示板</button></h1></a>
 
-            <a href="/questionboard"><input type="submit" value="質問掲示板"></a></br></br>
-
-            <a href="/board"><input type="submit" value="要望掲示板"></a></br></br>
-        </div>
+    </div>
     </body>
-</html>
-
+    </html>
 @endsection
